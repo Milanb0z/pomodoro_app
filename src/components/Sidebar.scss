@@ -1,0 +1,18 @@
+.sidebar {
+  background-color: #e96d6d;
+  &_links {
+    padding: 5rem 0;
+    &_icon {
+      color: #ffffff;
+      padding: 0.5em 0.75em;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.active {
+  background-color: #ffffff;
+  color: #e96d6d;
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+}
